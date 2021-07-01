@@ -1,7 +1,8 @@
 import React from 'react'
-import { Card, CardContent, Typography } from '@material-ui/core';
+import { Card, CardContent, Typography } from '@material-ui/core'
+import PropTypes from 'prop-types'
 
-function InfoBox({title, cases, total}) {
+function InfoBox ({ title, cases, total }) {
   return (
     <Card>
       <CardContent>
@@ -14,4 +15,10 @@ function InfoBox({title, cases, total}) {
     </Card>
   )
 }
-export default InfoBox;
+
+InfoBox.propTypes = {
+  title: PropTypes.string,
+  cases: PropTypes.number,
+  total: PropTypes.number
+}
+export default InfoBox
