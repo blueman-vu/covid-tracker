@@ -1,8 +1,10 @@
 .table {
   margin-top: 20px;
   overflow: scroll;
-  height: 400px;
   color: #6a5d5d;
+  background-color: white;
+  height: 400px;
+  margin-bottom: 100px;
 }
 
 .table tr{

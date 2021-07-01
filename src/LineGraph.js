@@ -4,8 +4,10 @@ import numeral from 'numeral'
 import PropTypes from 'prop-types'
 
 const options = {
-  legend: {
-    display: false
+  plugins: {
+    legend: {
+      display: false
+    }
   },
   elements: {
     point: {
